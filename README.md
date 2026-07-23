@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" alt="Narration Studio Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+  <img src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" alt="Narration Studio" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
 
   # 🎙️ Narration Studio
   
@@ -102,6 +102,5 @@ Gunakan perintah ini untuk mempermudah alur kerja Anda:
 ---
 
 <div align="center">
-  <p>Dibangun dengan ❤️ untuk para kreator konten.</p>
   <p><b>© 2026 Jarot - All Rights Reserved</b></p>
 </div>
