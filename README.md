@@ -2,7 +2,7 @@
 
 # 🎙️ Narration Studio
 
-**Platform produksi video faceless bertenaga AI — dari skrip sampai siap unggah, dalam satu tempat.**
+**Platform produksi video faceless bertenaga AI dari skrip sampai siap unggah, dalam satu tempat.**
 
 [![React](https://img.shields.io/badge/React-19.0.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5.0.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -17,7 +17,7 @@
 
 ## 📖 Tentang Proyek
 
-**Narration Studio** adalah aplikasi web *all-in-one* untuk memproduksi video — terutama konten *faceless* (tanpa wajah) — secara otomatis dan efisien. Alur kerjanya dirancang menyatukan seluruh tahap produksi konten dalam satu platform: mulai dari **penulisan skrip berbasis AI**, **pengambilan referensi dari YouTube**, **pengelolaan proyek**, hingga **ekspor hasil akhir** — tanpa perlu berpindah-pindah aplikasi.
+**Narration Studio** adalah aplikasi web *all-in-one* untuk memproduksi video  terutama konten *faceless* (tanpa wajah)  secara otomatis dan efisien. Alur kerjanya dirancang menyatukan seluruh tahap produksi konten dalam satu platform: mulai dari **penulisan skrip berbasis AI**, **pengambilan referensi dari YouTube**, **pengelolaan proyek**, hingga **ekspor hasil akhir**  tanpa perlu berpindah-pindah aplikasi.
 
 Cocok untuk kreator konten, tim produksi video, maupun siapa pun yang ingin mempercepat proses menulis dan menyusun narasi video dengan bantuan AI.
 
@@ -27,9 +27,9 @@ Cocok untuk kreator konten, tim produksi video, maupun siapa pun yang ingin memp
 
 | Fitur | Deskripsi |
 |---|---|
-| 🚀 **AI-Powered Generation** | Hasilkan skrip narasi berkualitas tinggi lewat integrasi AI kustom — biarkan AI membantu menemukan kata-kata yang tepat. |
+| 🚀 **AI-Powered Generation** | Hasilkan skrip narasi berkualitas tinggi lewat integrasi AI kustom  biarkan AI membantu menemukan kata-kata yang tepat. |
 | 📺 **YouTube Transcript Import** | Tarik transkrip langsung dari video YouTube sebagai referensi atau bahan dasar, lalu dibersihkan otomatis. |
-| 📂 **Manajemen Proyek** | Buat, edit, dan kelola banyak proyek narasi sekaligus — semua tersimpan aman secara lokal di browser. |
+| 📂 **Manajemen Proyek** | Buat, edit, dan kelola banyak proyek narasi sekaligus  semua tersimpan aman secara lokal di browser. |
 | 📝 **Rich Text Editor** | Pengalaman menulis mulus dengan editor teks kaya fitur berbasis komponen React modern. |
 | 📦 **Ekspor Instan** | Simpan dan bagikan hasil kerja langsung dari browser dengan dukungan ekspor JSZip. |
 | 🎨 **UI Premium** | Antarmuka modern, responsif, dan mendukung *dark mode* berkat Tailwind CSS v4. |
@@ -131,7 +131,7 @@ Silakan buka [Issue](https://github.com/Jarotttttt/Narration-Studio/issues) atau
 
 ## 📜 Lisensi
 
-**© 2026 Jarot — All Rights Reserved**
+**© 2026 Jarot  All Rights Reserved**
 
 <div align="center">
 
