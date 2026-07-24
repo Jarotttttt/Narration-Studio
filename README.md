@@ -1,105 +1,140 @@
 <div align="center">
 
-  # 🎙️ Narration Studio
-  
-  *A Next-Generation Video Narration Platform Powered by AI.*
+# 🎙️ Narration Studio
 
-  [![React](https://img.shields.io/badge/React-19.0.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-  [![Vite](https://img.shields.io/badge/Vite-5.0.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+**Platform produksi video faceless bertenaga AI — dari skrip sampai siap unggah, dalam satu tempat.**
 
-  [Fitur Utama](#-fitur-utama) • [Teknologi](#-teknologi) • [Cara Instalasi](#-cara-instalasi) • [Lisensi](#-lisensi)
+[![React](https://img.shields.io/badge/React-19.0.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.0.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_4.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+[Demo Langsung](https://narasi-flow.ai.studio) · [Fitur](#-fitur-utama) · [Instalasi](#-cara-instalasi) · [Tech Stack](#-tech-stack) · [Lisensi](#-lisensi)
+
 </div>
+
+---
+
+## 📖 Tentang Proyek
+
+**Narration Studio** adalah aplikasi web *all-in-one* untuk memproduksi video — terutama konten *faceless* (tanpa wajah) — secara otomatis dan efisien. Alur kerjanya dirancang menyatukan seluruh tahap produksi konten dalam satu platform: mulai dari **penulisan skrip berbasis AI**, **pengambilan referensi dari YouTube**, **pengelolaan proyek**, hingga **ekspor hasil akhir** — tanpa perlu berpindah-pindah aplikasi.
+
+Cocok untuk kreator konten, tim produksi video, maupun siapa pun yang ingin mempercepat proses menulis dan menyusun narasi video dengan bantuan AI.
 
 ---
 
 ## ✨ Fitur Utama
 
-🚀 **AI-Powered Generation**
-Hasilkan skrip narasi berkualitas tinggi dengan integrasi AI kustom. Biarkan AI membantu Anda menemukan kata-kata yang tepat.
-
-📺 **YouTube Transcript Import**
-Tarik transkrip langsung dari video YouTube favorit Anda dan bersihkan secara otomatis untuk referensi atau bahan dasar.
-
-📂 **Manajemen Proyek Lengkap**
-Buat, edit, dan kelola berbagai proyek narasi dengan mudah. Semua tersimpan aman secara lokal.
-
-📝 **Rich Text Editor Modern**
-Pengalaman menulis tanpa hambatan dengan editor teks kaya fitur yang dibangun dengan komponen React modern.
-
-📦 **Ekspor Mudah**
-Simpan dan bagikan karya Anda dengan dukungan ekspor JSZip langsung dari browser.
-
-🎨 **Desain Antarmuka Premium**
-Nikmati UI yang menawan, responsif, dan mendukung *dark mode* berkat kekuatan Tailwind CSS v4.
+| Fitur | Deskripsi |
+|---|---|
+| 🚀 **AI-Powered Generation** | Hasilkan skrip narasi berkualitas tinggi lewat integrasi AI kustom — biarkan AI membantu menemukan kata-kata yang tepat. |
+| 📺 **YouTube Transcript Import** | Tarik transkrip langsung dari video YouTube sebagai referensi atau bahan dasar, lalu dibersihkan otomatis. |
+| 📂 **Manajemen Proyek** | Buat, edit, dan kelola banyak proyek narasi sekaligus — semua tersimpan aman secara lokal di browser. |
+| 📝 **Rich Text Editor** | Pengalaman menulis mulus dengan editor teks kaya fitur berbasis komponen React modern. |
+| 📦 **Ekspor Instan** | Simpan dan bagikan hasil kerja langsung dari browser dengan dukungan ekspor JSZip. |
+| 🎨 **UI Premium** | Antarmuka modern, responsif, dan mendukung *dark mode* berkat Tailwind CSS v4. |
 
 ---
 
-## 🛠 Teknologi
+## 🛠 Tech Stack
 
-Kami menggunakan *tech stack* modern untuk memastikan performa yang luar biasa:
+<div align="center">
 
-| Kategori | Teknologi | Deskripsi |
-| :--- | :--- | :--- |
-| **Frontend** | React 19, TypeScript, Vite | Fondasi aplikasi yang sangat cepat dan interaktif. |
-| **Styling** | Tailwind CSS v4 | Utilitas CSS untuk desain yang konsisten dan indah. |
-| **Backend** | Express, tsx | Server ringan untuk menangani *requests* API. |
-| **Database** | Dexie (IndexedDB) | Penyimpanan lokal yang efisien di browser. |
-| **Integrasi** | Custom AI API | Endpoint untuk pemrosesan teks tingkat lanjut. |
+| Lapisan | Teknologi | Peran |
+|---|---|---|
+| **Frontend** | React 19 · TypeScript · Vite | Fondasi aplikasi yang cepat & interaktif |
+| **Styling** | Tailwind CSS v4 | Desain konsisten dan modern |
+| **Backend** | Express · tsx | Server ringan untuk menangani request API |
+| **Penyimpanan** | Dexie (IndexedDB) | Database lokal di sisi browser |
+| **Integrasi AI** | Custom AI API | Endpoint untuk generasi & pemrosesan teks |
+
+</div>
 
 ---
 
 ## 🚀 Cara Instalasi
 
-Ikuti langkah-langkah mudah berikut untuk menjalankan **Narration Studio** di mesin lokal Anda:
+### Prasyarat
+- Node.js versi terbaru (LTS direkomendasikan)
+- npm
 
-### 1. Kloning Repositori & Instal Dependensi
-
-Pastikan Node.js sudah terinstal, lalu jalankan:
+### 1. Klon repositori & instal dependensi
 
 ```bash
-# Instal semua paket yang dibutuhkan
+git clone https://github.com/Jarotttttt/Narration-Studio.git
+cd Narration-Studio
 npm install
 ```
 
-### 2. Konfigurasi Environment
-
-Duplikat file konfigurasi *environment* dan sesuaikan dengan kredensial Anda:
+### 2. Konfigurasi environment
 
 ```bash
-# Salin template environment
 cp .env.example .env.local
 ```
 
-Buka file `.env.local` dan isi *environment variables* berikut:
+Buka `.env.local` dan lengkapi variabel berikut:
 
-- `AI_API_KEY`: Kunci API untuk *generator* konten AI.
-- `AI_BASE_URL`: URL dasar untuk endpoint API AI.
-- `YOUTUBE_TRANSCRIPT_API_URL`: Endpoint API transkrip YouTube.
+| Variabel | Keterangan |
+|---|---|
+| `AI_API_KEY` | Kunci API untuk generator konten AI |
+| `AI_BASE_URL` | URL dasar endpoint API AI |
+| `YOUTUBE_TRANSCRIPT_API_URL` | Endpoint API untuk mengambil transkrip YouTube |
 
-### 3. Jalankan Server Pengembangan
+### 3. Jalankan server pengembangan
 
 ```bash
-# Mulai petualangan!
 npm run dev
 ```
 
-Aplikasi akan berjalan di `http://localhost:3000`.
+Aplikasi akan berjalan di **http://localhost:3000**
 
 ---
 
 ## 📜 Daftar Skrip
 
-Gunakan perintah ini untuk mempermudah alur kerja Anda:
-
-- `npm run dev` : Menjalankan server pengembangan (*Vite & Express*).
-- `npm run build` : Membangun bundel produksi.
-- `npm run start` : Menjalankan server produksi dari bundel.
-- `npm run lint` : Memeriksa masalah tipe TypeScript.
+| Perintah | Fungsi |
+|---|---|
+| `npm run dev` | Menjalankan server pengembangan (Vite & Express) |
+| `npm run build` | Membangun bundel untuk produksi |
+| `npm run start` | Menjalankan server produksi dari hasil build |
+| `npm run lint` | Memeriksa tipe & masalah TypeScript |
 
 ---
 
+## 🗂️ Struktur Proyek
+
+```
+Narration-Studio/
+├── src/                  # Kode sumber utama aplikasi (komponen, logic, halaman)
+├── .env.example          # Template environment variable
+├── index.html            # Entry point aplikasi
+├── server.ts             # Server Express untuk API
+├── vite.config.ts        # Konfigurasi Vite
+├── tsconfig.json         # Konfigurasi TypeScript
+└── package.json          # Daftar dependensi & skrip proyek
+```
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi, laporan bug, dan permintaan fitur sangat diterima!
+Silakan buka [Issue](https://github.com/Jarotttttt/Narration-Studio/issues) atau ajukan Pull Request.
+
+1. Fork repositori ini
+2. Buat branch fitur (`git checkout -b fitur/nama-fitur`)
+3. Commit perubahan (`git commit -m 'Menambahkan fitur X'`)
+4. Push ke branch (`git push origin fitur/nama-fitur`)
+5. Buka Pull Request
+
+---
+
+## 📜 Lisensi
+
+**© 2026 Jarot — All Rights Reserved**
+
 <div align="center">
-  <p><b>© 2026 Jarot - All Rights Reserved</b></p>
+
+Dibuat dengan ❤️ oleh **[Jarot](https://github.com/Jarotttttt)**
+
 </div>
